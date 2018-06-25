@@ -23,9 +23,7 @@ function currentLine(katzDeliLine){
     
     //for (let i = 1; i < linelength; i++){
     console.log ("The line is currently: " + 
-      for(let i = 1; i < linelength; i++){
-        i + ". " + katzDeliLine[i - 1]);
-    }
+      
   }
   
 }
