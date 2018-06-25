@@ -6,8 +6,8 @@ function takeANumber(katzDeliLine, newname){
   return "Welcome, " + newname + ". You are number " + [katzDeliLine.length] + " in line.";
 }
 
-function nowServing(){
-  console.log(katzDeli);
+function nowServing(katzDeliLine){
+  console.log(katzDeliLine);
   if (katzDeli.length > 0){
     return "There is nobody waiting to be served!";
   } else{
