@@ -26,6 +26,6 @@ function currentLine(katzDeliLine){
     }
     newarray[linelength-1] = linelength + ". " + katzDeliLine[linelength-1]
   }
-  return newarray;
+  return "The line is currently: " + newarray;
   
 }
