@@ -22,7 +22,7 @@ function currentLine(katzDeliLine){
     var linelength = katzDeliLine.length;
     var newarray = []
     for (let i = 1; i < linelength-1; i++){
-      newarray[i] = i + ". " + katzDeliLine[i-1] + ","
+      newarray[i-1] = i + ". " + katzDeliLine[i-1] + ","
     }
     newarray[linelength-1] = linelength + ". " + katzDeliLine[linelength-1]
   }
