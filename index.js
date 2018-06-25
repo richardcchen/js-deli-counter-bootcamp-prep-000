@@ -20,10 +20,12 @@ function currentLine(katzDeliLine){
     return "The line is currently empty."
   } else {
     var linelength = katzDeliLine.length;
-    
-    //for (let i = 1; i < linelength; i++){
-    console.log ("The line is currently: " + 
-      
+    var newarray = []
+    for (let i = 1; i < linelength-1; i++){
+      newarray[i] = i + ". " + katzDeliLine[i-1] + ","
+    }
+    newarray[linelength-1] = linelength + ". " + katzDeliLine[linelength-1]
   }
+  return newarray;
   
 }
