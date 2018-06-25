@@ -22,10 +22,10 @@ function currentLine(katzDeliLine){
     var linelength = katzDeliLine.length;
     var newarray = []
     for (let i = 0; i < linelength; i++){
-      newarray[i] = i+1 + ". " + katzDeliLine[i];
+      newarray[i] = " "+ i+1 + ". " + katzDeliLine[i];
     }
     newarray[linelength-1] = linelength + ". " + katzDeliLine[linelength-1]
   }
-  return "The line is currently: " + newarray;
+  return "The line is currently:" + newarray;
   
 }
