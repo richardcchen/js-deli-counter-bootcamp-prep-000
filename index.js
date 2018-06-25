@@ -21,8 +21,8 @@ function currentLine(katzDeliLine){
   } else {
     var linelength = katzDeliLine.length;
     var newarray = []
-    for (let i = 1; i < linelength-1; i++){
-      newarray[i-1] = i + ". " + katzDeliLine[i-1] + ","
+    for (let i = 0; i < linelength; i++){
+      newarray[i] = i+1 + ". " + katzDeliLine[i-1] + ","
     }
     newarray[linelength-1] = linelength + ". " + katzDeliLine[linelength-1]
   }
